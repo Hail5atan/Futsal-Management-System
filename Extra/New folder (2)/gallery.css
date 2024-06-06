@@ -1,0 +1,49 @@
+header{
+	font-size: 25px;
+	font-family: cursive;
+	text-align: center;
+}
+
+main{
+	margin-left: 120px;
+	border-radius: 5px;
+	
+
+}
+.box{
+	display: block;
+	float: left;
+	width:20%;
+	padding: 10px;
+	padding-left: 12px;
+	overflow: hidden;
+	border-radius: 5px;
+	
+}
+
+img{
+	width:100%;
+	border-radius: 5px;
+
+}
+body{
+			background-image: url("ill.jpg");
+			background-repeat: no-repeat;
+			background-size: 100%;
+
+		}
+
+img:hover{
+	transform: scale(2);
+	transition: 3s transform ;
+	border-radius: 5px;
+}
+
+ h3{
+	position: relative;
+	text-align: center;
+	color:white ;
+	padding-top: 2px;
+	font-family: cursive;
+}	
+	

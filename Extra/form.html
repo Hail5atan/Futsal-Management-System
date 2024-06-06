@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<style>
+		body{
+			background-image: url("image/grass.jpg");
+			background-repeat: no-repeat;
+			background-size: 100%;
+			background-position: center;
+			text-align: cover;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+			<div class="menu">
+			<img src="image/logo.png" height="80px" width="100px">
+			
+			<ul>
+				<li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+				<li><a href="Gallery.html"><i class="fa fa-picture-o"></i> Gallery</a></li>
+				<li><a href="AboutUs.html"><i class="fa fa-group"></i> About Us</a></li>
+				<li><a href="Contact.html"><i class="fa fa-envelope"></i> Contact Us</a></li>		
+			</ul></div>
+
+
+
+	<table border="4px" align="center" class="contact">
+		<h1 align="center">Futsal Booking</h1>
+	<form>
+		<tr>
+		<td>Name:</td><td><input type="text" name="name"></td></tr>
+		<tr><td>Phone no:</td><td><input type="number" name="phone"></td></tr>
+		<tr><td>E-mail:</td><td><input type="email" name="email"></td></tr>
+		<tr><td>Address:</td><td><input type="text" name="address"></td></tr>
+		<tr><td>Shift:</td>
+		<td><input type="radio" name="chkshift">Morning<br>
+		<input type="radio" name="chkshift">Day<br>
+		<input type="radio" name="chkshift">Night<br>
+		</td></tr>
+		<tr>
+			<td>Location:</td>
+			<td><select name="Location">
+			<option value="Bhaktapur">Bhaktapur</option>
+			<option value="Kathmandu">Kathmandu</option>
+			<option value="Lalitpur">Lalitpur</option></td>
+		</select>
+	</td>
+		</tr>
+		<td>Mode of payment:</td>
+		<td><input type="radio" name="chkmode">Online Payment<br>
+		<input type="radio" name="chkmode">Cash in Hand<br><td></tr>
+			<tr>
+				<td>Feedback:</td>
+				<td><textarea rows="2"></textarea></td>
+			</tr>
+			<td colspan="2"><input type="submit" name="submit" value="Submit">
+			<input type="reset" name="reset" value="Reset"></td></tr>
+		</form>
+
+
+</table>
+<footer>
+		<div class="last">
+
+			<h1>A.D.R Futsal</h1>
+			<h3>Just Play, Forget Rest!!</h3>
+			
+		</div>
+	</div>
+	</footer>
+</body>
+</html>

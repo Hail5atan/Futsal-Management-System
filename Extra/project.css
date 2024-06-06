@@ -1,0 +1,15 @@
+body{
+	height: 105vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+p{
+	color: white;
+}
+.img-wrap{
+	width:100%;
+}
+#aboutus h2{margin-bottom: 25px;}
+
+.img-wrap img{width: 100%;padding: 10px;border-radius: 50%;box-shadow: 0 0 10px white }

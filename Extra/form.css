@@ -1,0 +1,29 @@
+.contact {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 30px;
+  text-align: left;
+  height: 450px;
+  width: 300px;
+}
+.last{
+	position: fixed;
+	bottom: 0px;
+	height: 100px;
+	width: 100%;
+	background: #464646;
+}
+.last h1{
+	text-align: center;
+	font-size: 50px;
+	color:white;
+	padding-top: 10px; 
+	font-family: 'Montserrat',sans-serif;
+	text-decoration: underline;
+}
+.last h3{
+	text-align: center;
+	color:white ;
+	padding-top: 2px;
+	font-family: cursive;
+}	

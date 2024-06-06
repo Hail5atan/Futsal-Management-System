@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery</title>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+	<link rel="stylesheet" type="text/css" href="style/gallery.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+		<div class="main">
+			<div class="menu">
+			<img src="image/logo.png" height="80px" width="100px">
+			<ul>
+				<li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+				<li><a href="Gallery.html"><i class="fa fa-picture-o"></i> Gallery</a></li>
+				<li><a href="AboutUs.html"><i class="fa fa-group"></i> About Us</a></li>
+				<li><a href="Contact.html"><i class="fa fa-envelope"></i> Contact Us</a></li>		
+			</ul></div>
+		</div>
+
+
+	<h1>Photos of our Courts</h1>
+<div class="row">
+  <div class="column">
+    <img src="image/img1.jpg" alt="A.D.R Futsal" height="150px" width="150px" onclick="myFunction(this);" >
+  </div>
+  <div class="column">
+    <img src="image/img2.jpg" alt="A.D.R Futsal" height="150px" width="150px" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="image/img3.jpg" alt="A.D.R Futsal" height="150px" width="150px" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="image/img4.jpg" alt="A.D.R Futsal" height="150px" width="150px" onclick="myFunction(this);">
+  </div>
+    <div class="column">
+    <img src="image/img5.jpg" alt="A.D.R Futsal" height="150px" width="150px" onclick="myFunction(this);">
+  </div>
+    <div class="column">
+    <img src="image/img6.jpg" alt="A.D.R Futsal" height="150px" width="150px" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="image/img7.jpg" alt="A.D.R Futsal" height="150px" width="150px" onclick="myFunction(this);" >
+  </div>
+    
+</div>
+
+<div class="container">
+	<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+		 <img id="expandedImg" style="width:100%">
+	<div id="imgtext">Futsal</div>
+</div>
+				
+
+
+<script type="text/javascript">
+
+	function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+
+
+
+</script>
+<footer>
+    <div class="last">
+
+      <h1>A.D.R Futsal</h1>
+      <h3>Just Play, Forget Rest!!</h3>
+      
+    </div>
+  </div>
+  </footer>
+</body>
+</html>
